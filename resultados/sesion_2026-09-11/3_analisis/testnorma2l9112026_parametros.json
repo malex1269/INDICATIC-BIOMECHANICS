@@ -1,0 +1,275 @@
+{
+  "session_id": "testnorma2l9112026",
+  "fs_hz": 100.0,
+  "duration_s": 25.080000000000002,
+  "side": "ambos",
+  "fusion_modes": {
+    "cabeza": "6D",
+    "espalda": "6D",
+    "mano_der": "6D",
+    "mano_izq": "6D",
+    "pie_der": "6D",
+    "pie_izq": "6D"
+  },
+  "joints": {
+    "pelvis_sagital": {
+      "rom_deg": 10.504394968053195,
+      "rom_deg_full": 12.996467178781357,
+      "peak_flexion_deg": 8.885960792643624,
+      "peak_extension_deg": -4.1105063861377324,
+      "peak_abs_vel_dps": 118.39764495644678,
+      "mean_abs_vel_dps": 11.36119566836017,
+      "cycle_count": 24,
+      "active_duration_s": 9.92,
+      "rom_cycle_deg": 6.688363921514547,
+      "rom_por_ciclo_media_deg": 7.001951827194716,
+      "rom_por_ciclo_de_deg": 0.3556629832560978,
+      "n_ciclos_promediados": 4
+    },
+    "pelvis_frontal": {
+      "rom_deg": 11.682560474598148,
+      "rom_deg_full": 11.682560474598148,
+      "peak_flexion_deg": 6.049416122315195,
+      "peak_extension_deg": -5.633144352282953,
+      "peak_abs_vel_dps": 100.6170086206429,
+      "mean_abs_vel_dps": 11.44634711667182,
+      "cycle_count": 24,
+      "active_duration_s": 8.89,
+      "rom_cycle_deg": 8.416318640069527,
+      "rom_por_ciclo_media_deg": 9.299046783023304,
+      "rom_por_ciclo_de_deg": 1.2951316581434151,
+      "n_ciclos_promediados": 4
+    },
+    "cabeza_sagital": {
+      "rom_deg": 10.720254129681742,
+      "rom_deg_full": 10.720254129681742,
+      "peak_flexion_deg": 4.6537391280460385,
+      "peak_extension_deg": -6.066515001635704,
+      "peak_abs_vel_dps": 31.958407241167407,
+      "mean_abs_vel_dps": 5.8768280716219685,
+      "cycle_count": 24,
+      "active_duration_s": 3.59,
+      "rom_cycle_deg": 2.601640263650237,
+      "rom_por_ciclo_media_deg": 3.82878212115771,
+      "rom_por_ciclo_de_deg": 0.20490325677564777,
+      "n_ciclos_promediados": 4
+    },
+    "cabeza_frontal": {
+      "rom_deg": 7.372832781368665,
+      "rom_deg_full": 7.372832781368665,
+      "peak_flexion_deg": 3.20917647027649,
+      "peak_extension_deg": -4.163656311092175,
+      "peak_abs_vel_dps": 66.2912845715208,
+      "mean_abs_vel_dps": 3.5527010035910624,
+      "cycle_count": 27,
+      "active_duration_s": 0.93,
+      "rom_cycle_deg": 2.3735268523893915,
+      "rom_por_ciclo_media_deg": 2.7130908031300125,
+      "rom_por_ciclo_de_deg": 0.7718119773713207,
+      "n_ciclos_promediados": 4
+    },
+    "brazo_der_sagital": {
+      "rom_deg": 24.393110145623154,
+      "rom_deg_full": 24.393110145623154,
+      "peak_flexion_deg": 11.346892056224862,
+      "peak_extension_deg": -13.046218089398295,
+      "peak_abs_vel_dps": 68.9096312467773,
+      "mean_abs_vel_dps": 15.76550261629317,
+      "cycle_count": 23,
+      "active_duration_s": 14.04,
+      "rom_cycle_deg": 11.848296183131229,
+      "rom_por_ciclo_media_deg": 13.672258276558622,
+      "rom_por_ciclo_de_deg": 6.76715318855179,
+      "n_ciclos_promediados": 4
+    },
+    "brazo_der_frontal": {
+      "rom_deg": 26.28672718052845,
+      "rom_deg_full": 26.28672718052845,
+      "peak_flexion_deg": 10.967881573812777,
+      "peak_extension_deg": -15.318845606715676,
+      "peak_abs_vel_dps": 95.96773037451456,
+      "mean_abs_vel_dps": 26.708494985339602,
+      "cycle_count": 26,
+      "active_duration_s": 16.65,
+      "rom_cycle_deg": 14.9707013525173,
+      "rom_por_ciclo_media_deg": 17.3167986453713,
+      "rom_por_ciclo_de_deg": 4.194191128864056,
+      "n_ciclos_promediados": 4
+    },
+    "brazo_izq_sagital": {
+      "rom_deg": 32.639793449209094,
+      "rom_deg_full": 32.639793449209094,
+      "peak_flexion_deg": 16.58254796920823,
+      "peak_extension_deg": -16.05724548000087,
+      "peak_abs_vel_dps": 100.42052717849757,
+      "mean_abs_vel_dps": 30.286161490669233,
+      "cycle_count": 23,
+      "active_duration_s": 17.2,
+      "rom_cycle_deg": 15.622991989496,
+      "rom_por_ciclo_media_deg": 17.93664701062467,
+      "rom_por_ciclo_de_deg": 3.7406363416270865,
+      "n_ciclos_promediados": 5
+    },
+    "brazo_izq_frontal": {
+      "rom_deg": 21.080506046007415,
+      "rom_deg_full": 21.080506046007415,
+      "peak_flexion_deg": 10.66230795996137,
+      "peak_extension_deg": -10.418198086046047,
+      "peak_abs_vel_dps": 87.20751166014279,
+      "mean_abs_vel_dps": 22.12253706907013,
+      "cycle_count": 24,
+      "active_duration_s": 15.5,
+      "rom_cycle_deg": 7.197553028608406,
+      "rom_por_ciclo_media_deg": 11.797614482299872,
+      "rom_por_ciclo_de_deg": 1.3512569297275743,
+      "n_ciclos_promediados": 5
+    },
+    "pie_der_sagital": {
+      "rom_deg": 81.93595794718472,
+      "rom_deg_full": 81.93595794718472,
+      "peak_flexion_deg": 24.640713184396347,
+      "peak_extension_deg": -57.29524476278837,
+      "peak_abs_vel_dps": 279.58047975820114,
+      "mean_abs_vel_dps": 59.505322944996585,
+      "cycle_count": 15,
+      "active_duration_s": 14.3,
+      "rom_cycle_deg": 75.40226617613271,
+      "rom_por_ciclo_media_deg": 77.23116242266771,
+      "rom_por_ciclo_de_deg": 3.8562638199378196,
+      "n_ciclos_promediados": 4
+    },
+    "pie_der_frontal": {
+      "rom_deg": 18.184434852700484,
+      "rom_deg_full": 18.184434852700484,
+      "peak_flexion_deg": 8.678062653916758,
+      "peak_extension_deg": -9.506372198783728,
+      "peak_abs_vel_dps": 119.54158051048353,
+      "mean_abs_vel_dps": 14.926598694691547,
+      "cycle_count": 24,
+      "active_duration_s": 10.55,
+      "rom_cycle_deg": 7.383276036891219,
+      "rom_por_ciclo_media_deg": 8.870290918997979,
+      "rom_por_ciclo_de_deg": 1.5641181124331867,
+      "n_ciclos_promediados": 4
+    },
+    "pie_izq_sagital": {
+      "rom_deg": 80.6858817880258,
+      "rom_deg_full": 80.6858817880258,
+      "peak_flexion_deg": 26.324838488786273,
+      "peak_extension_deg": -54.36104329923952,
+      "peak_abs_vel_dps": 238.4758567973683,
+      "mean_abs_vel_dps": 61.40043402583757,
+      "cycle_count": 16,
+      "active_duration_s": 13.6,
+      "rom_cycle_deg": 66.39242059258319,
+      "rom_por_ciclo_media_deg": 71.76440438345921,
+      "rom_por_ciclo_de_deg": 9.016038733044017,
+      "n_ciclos_promediados": 5
+    },
+    "pie_izq_frontal": {
+      "rom_deg": 22.79299221641021,
+      "rom_deg_full": 22.79299221641021,
+      "peak_flexion_deg": 4.688725075706255,
+      "peak_extension_deg": -18.104267140703953,
+      "peak_abs_vel_dps": 166.7318686327612,
+      "mean_abs_vel_dps": 18.26763769668921,
+      "cycle_count": 25,
+      "active_duration_s": 10.03,
+      "rom_cycle_deg": 12.100791562497626,
+      "rom_por_ciclo_media_deg": 14.817940652761587,
+      "rom_por_ciclo_de_deg": 2.5643627980238395,
+      "n_ciclos_promediados": 5
+    },
+    "cadena_r": {
+      "rom_deg": 84.38522032052643,
+      "rom_deg_full": 84.38522032052643,
+      "peak_flexion_deg": 24.517012678264997,
+      "peak_extension_deg": -59.86820764226143,
+      "peak_abs_vel_dps": 317.1257546118344,
+      "mean_abs_vel_dps": 63.105931693936675,
+      "cycle_count": 24,
+      "active_duration_s": 16.92,
+      "rom_cycle_deg": 77.11673985249419,
+      "rom_por_ciclo_media_deg": 79.24029356132367,
+      "rom_por_ciclo_de_deg": 3.7156652370863656,
+      "n_ciclos_promediados": 4
+    },
+    "cadena_l": {
+      "rom_deg": 82.67746439384706,
+      "rom_deg_full": 82.67746439384706,
+      "peak_flexion_deg": 25.38412690519295,
+      "peak_extension_deg": -57.2933374886541,
+      "peak_abs_vel_dps": 266.2502543854746,
+      "mean_abs_vel_dps": 64.31251004998626,
+      "cycle_count": 25,
+      "active_duration_s": 16.35,
+      "rom_cycle_deg": 67.18680915565531,
+      "rom_por_ciclo_media_deg": 73.49379509421121,
+      "rom_por_ciclo_de_deg": 8.98458343500816,
+      "n_ciclos_promediados": 5
+    }
+  },
+  "temporal": {
+    "cadence_steps_per_min": 93.19614124043486,
+    "derecha": {
+      "cadence_steps_per_min": 94.30255402750491,
+      "stride_time_mean_s": 1.2725,
+      "stride_time_std_s": 0.46738857852255367,
+      "stride_time_cv_pct": 36.72994723163487,
+      "step_time_s": 0.63625,
+      "stance_pct": 63.90483725862793,
+      "swing_pct": 36.09516274137207,
+      "n_steady_strides": 12,
+      "n_foot_strikes_total": 17
+    },
+    "izquierda": {
+      "cadence_steps_per_min": 92.0897284533648,
+      "stride_time_mean_s": 1.3030769230769232,
+      "stride_time_std_s": 0.5268102068893884,
+      "stride_time_cv_pct": 40.42817408242059,
+      "step_time_s": 0.6515384615384616,
+      "stance_pct": 61.60824130855582,
+      "swing_pct": 38.39175869144418,
+      "n_steady_strides": 13,
+      "n_foot_strikes_total": 16
+    },
+    "simetria": {
+      "si_tiempo_de_zancada_pct": -2.3743746733368334,
+      "si_porcentaje_de_apoyo_pct": 3.6595324985878728,
+      "si_cadencia_pct": 2.3743746733368365,
+      "si_rom_braceo_pct": -27.481025153570563,
+      "si_rom_cadena_sagital_pct": 13.762559223374458
+    }
+  },
+  "spatial": {
+    "por_zupt_ESTIMACION": {
+      "derecha": {
+        "stride_length_m_est": 0.5633950596930329,
+        "stride_length_std_m_est": 0.3307616959698921,
+        "walking_speed_mps_est": 0.4427466087960966,
+        "n_strides_spatial": 12
+      },
+      "izquierda": {
+        "stride_length_m_est": 0.4760250804326284,
+        "stride_length_std_m_est": 0.3367293679827735,
+        "walking_speed_mps_est": 0.3653085032835991,
+        "n_strides_spatial": 11
+      }
+    },
+    "actividad_pct": {
+      "marcha": 86.88720605819051,
+      "parado": 2.5508170585890793,
+      "giro": 0.0,
+      "otro": 10.561976883220407,
+      "n_giros": 0,
+      "duracion_s": 25.080000000000002
+    }
+  },
+  "n_turnarounds": 0,
+  "turnarounds": [],
+  "warnings": [
+    "Todas las trazas de este archivo son MEDIDAS (inclinacion vs gravedad). No hay angulos de cadera/rodilla/tobillo: el montaje S no los observa, solo mide su suma (cadena_r / cadena_l).",
+    "Los parametros se calculan solo sobre marcha recta: 87 % de la toma.",
+    "El largo de zancada por ZUPT es una ESTIMACION y en este proyecto no resulto confiable."
+  ]
+}

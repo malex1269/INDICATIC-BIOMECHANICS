@@ -1,0 +1,29 @@
+Duracion de la sesion (host): 904.9 s   ODR nominal: 100 Hz
+              mac canal  muestras  perdida_pct  drift_reloj_ppm
+C7:30:05:86:B0:6F   acc     90804         0.00            -66.5
+D7:C0:2D:7B:6F:C9   acc     91692         0.00            -38.9
+EE:9D:A0:09:C6:11   acc     90600         0.00           -103.0
+F0:F3:13:F7:E0:B4   acc     90951         0.00            -33.4
+F8:D1:BE:CA:3E:1B   acc     90270         0.25             -6.9
+FB:34:B5:D8:F3:4E   acc     89061         1.58            -65.4
+C7:30:05:86:B0:6F  gyro     90807         0.00            -64.3
+D7:C0:2D:7B:6F:C9  gyro     91689         0.00            -72.1
+EE:9D:A0:09:C6:11  gyro     90600         0.00            -38.9
+F0:F3:13:F7:E0:B4  gyro     90945         0.00           -100.8
+F8:D1:BE:CA:3E:1B  gyro     90270         0.25            -37.8
+FB:34:B5:D8:F3:4E  gyro     89049         1.60           -198.1
+
+Dispersion entre sensores: perdida_pct spread=1.60 pts, drift_reloj_ppm spread=191.2 ppm
+
+Drift de orientacion (solo valido si la sesion es en reposo rigido).
+El 'sesgo' es la lectura media del giroscopio quieto: deberia ser 0.
+Como es aproximadamente constante, se puede restar en el postprocesado y el drift baja muchisimo.
+              mac  sesgo_x_deg_s  drift_x_deg_min  sesgo_y_deg_s  drift_y_deg_min  sesgo_z_deg_s  drift_z_deg_min  peor_eje_deg_min
+FB:34:B5:D8:F3:4E         -0.034             -2.1         -0.152             -9.1          0.163              9.8               9.8
+C7:30:05:86:B0:6F         -0.092             -5.6         -0.133             -8.0         -0.333            -20.0              20.0
+EE:9D:A0:09:C6:11         -0.196            -11.8         -0.177            -10.6          0.346             20.8              20.8
+F0:F3:13:F7:E0:B4          0.359             21.6          0.089              5.3         -0.342            -20.5              21.6
+F8:D1:BE:CA:3E:1B          0.643             38.6         -0.184            -11.0         -0.552            -33.1              38.6
+D7:C0:2D:7B:6F:C9         -0.069             -4.1         -0.818            -49.1         -0.179            -10.8              49.1
+
+Guardado: ../../BERRY DATA/figuras/fig4_drift.png

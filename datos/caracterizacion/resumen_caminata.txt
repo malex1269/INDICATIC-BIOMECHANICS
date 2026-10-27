@@ -1,0 +1,10 @@
+Duración de la sesión: 27.1 s   ODR nominal: 100 Hz
+           sensor  muestras  seg_con_senal_buena  ultimo_seg_con_senal
+C7:30:05:86:B0:6F        48                    0                     0
+D7:C0:2D:7B:6F:C9       276                    1                     1
+EE:9D:A0:09:C6:11         6                    0                     0
+F0:F3:13:F7:E0:B4       204                    0                     0
+F8:D1:BE:CA:3E:1B       360                    3                     7
+FB:34:B5:D8:F3:4E        51                    0                     0
+
+Guardado: ../../BERRY DATA/figuras/fig3_caminata_fallo.png

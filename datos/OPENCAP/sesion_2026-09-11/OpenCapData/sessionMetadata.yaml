@@ -1,0 +1,29 @@
+augmentermodel: v0.3
+calibrationSettings:
+  overwriteDeployedIntrinsics: false
+  saveSessionIntrinsics: false
+cameraMapping:
+  Cam0:
+    device_id: 10f1ffc4-f1d1-48da-b5a6-9cb38889d182
+    phone_label: Phone 1
+  Cam1:
+    device_id: 0a06e264-3941-42d0-a377-f494937cca79
+    phone_label: Phone 2
+checkerBoard:
+  black2BlackCornersHeight_n: 4
+  black2BlackCornersWidth_n: 5
+  placement: Perpendicular
+  squareSideLength_mm: 35.0
+filterfrequency: default
+gender_mf: Man
+height_m: 1.67
+iphoneModel:
+  Cam0: iPhone14,5
+  Cam1: iPhone14,5
+markerAugmentationSettings:
+  markerAugmenterModel: LSTM
+mass_kg: 61.0
+openSimModel: LaiUhlrich2022
+posemodel: hrnet
+scalingsetup: upright_standing_pose
+subjectID: S01

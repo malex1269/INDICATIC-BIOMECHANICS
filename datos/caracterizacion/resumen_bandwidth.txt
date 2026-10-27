@@ -1,0 +1,44 @@
+=== Por adaptador (integrado vs dongle) ===
+         tag adapter_role dongle_label  sensores  acc_hz_medio  gyro_hz_medio  acc_perdida_pct  gyro_perdida_pct  gyro_perdida_max
+        base       dongle     dongle_A        30     48.770000      46.556667         2.743333          7.170000              67.6
+        base      onboard                     30     50.233333      50.233333         0.086667          0.090000               0.3
+    caminata       dongle     dongle_A         3      0.266667       0.266667        99.733333         99.733333             100.0
+    caminata      onboard                      3      0.633333       0.566667        99.366667         99.433333             100.0
+      drift2       dongle     dongle_A         3     99.733333      99.733333         0.533333          0.533333               1.6
+      drift2      onboard                      3    100.400000     100.400000         0.066667          0.066667               0.2
+drift_reposo       dongle     dongle_A         3     49.900000      49.900000         0.533333          0.533333               1.6
+drift_reposo      onboard                      3     50.233333      50.233333         0.066667          0.066667               0.2
+        freq       dongle     dongle_A        18     74.766667      74.711111         0.577778          0.638889               3.5
+        freq      onboard                     18     75.288889      75.294444         0.088889          0.094444               0.3
+        odr2       dongle     dongle_A        12    138.858333     130.816667        19.233333         24.191667              67.9
+        odr2      onboard                     12    157.050000     147.166667        12.308333         20.366667              47.4
+    odr_test       dongle     dongle_A        12     95.991667      92.808333        12.275000         15.350000              88.9
+    odr_test      onboard                     12    111.275000     103.575000         1.483333          9.158333              38.0
+       orden       dongle     dongle_A        15     48.953333      47.366667         2.240000          5.413333              36.8
+       orden      onboard                     15     50.180000      50.126667         0.286667          0.386667               5.8
+ packed_test       dongle     dongle_A         6     49.866667      49.866667         0.533333          0.533333               1.6
+ packed_test      onboard                      6     50.216667      50.216667         0.100000          0.083333               0.3
+Guardado: resumen_por_adaptador.csv
+
+=== Por corrida ===
+         tag adapter_mode  packed  odr_hz  conn_interval_ms  sensors_requested  sensores_conectados  acc_hz_medio  gyro_hz_medio  acc_perdida_pct_media  gyro_perdida_pct_media  fallos_conexion
+        base        split   False      50              30.0                  6                   60     49.501667      48.395000               1.415000                3.630000                0
+    caminata        split    True     100              30.0                  6                    6      0.450000       0.416667              99.550000               99.583333                0
+      drift2        split    True     100              30.0                  6                    6    100.066667     100.066667               0.300000                0.300000                0
+drift_reposo        split   False      50              30.0                  6                    6     50.066667      50.066667               0.300000                0.300000                0
+        freq        split    True      50              30.0                  6                   18     50.038889      50.055556               0.305556                0.311111                0
+        freq        split    True     100              30.0                  6                   18    100.016667      99.950000               0.361111                0.422222                0
+        odr2        split   False     100              30.0                  6                    6     90.633333      73.466667               9.366667               26.533333                0
+        odr2        split    True     100              30.0                  6                    6    100.050000     100.050000               0.316667                0.316667                0
+        odr2        split    True     200              30.0                  6                    6    185.900000     169.083333               7.216667               15.600000                0
+        odr2        split    True     400              30.0                  6                    6    215.233333     213.366667              46.183333               46.666667                0
+    odr_test        split   False      50              30.0                  6                    6     50.033333      50.033333               0.300000                0.300000                0
+    odr_test        split   False     100              30.0                  6                    6     82.083333      60.900000              17.916667               39.100000                0
+    odr_test        split    True     100              30.0                  6                    6    100.033333      99.933333               0.350000                0.466667                0
+    odr_test        split    True     200              30.0                  6                    6    182.383333     181.900000               8.950000                9.150000                0
+       orden        split   False      50              30.0                  6                   30     49.566667      48.746667               1.263333                2.900000                0
+ packed_test        split   False      50              30.0                  6                    6     50.050000      50.050000               0.316667                0.316667                0
+ packed_test        split    True      50              30.0                  6                    6     50.033333      50.033333               0.316667                0.300000                0
+
+Guardado: bandwidth_summary.csv
+Guardado: ../../BERRY DATA/figuras/fig0_perdida_por_corrida.png

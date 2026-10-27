@@ -1,0 +1,49 @@
+toma,coordenada,lado,version,n_ciclos,ROM_media,ROM_DE,max_media,max_DE,min_media,min_DE,r_vs_OpenCap,RMSE_vs_OpenCap
+testnorma2l9112026,pelvis_tilt,-,OpenCap,5,14.98,5.62,13.91,7.12,-1.07,1.57,1.00,0.00
+testnorma2l9112026,pelvis_tilt,-,+IMU,5,14.98,5.62,13.91,7.12,-1.07,1.57,1.00,0.00
+testnorma2l9112026,pelvis_tilt,-,+IMU+pelvis,5,9.42,1.15,10.83,0.55,1.40,0.67,0.25,6.86
+testnorma2l9112026,hip_flexion,derecha,OpenCap,5,40.43,8.46,21.58,0.95,-18.84,7.69,1.00,0.00
+testnorma2l9112026,hip_flexion,derecha,+IMU,5,45.67,8.76,25.92,2.53,-19.75,6.48,0.93,5.71
+testnorma2l9112026,hip_flexion,derecha,+IMU+pelvis,5,46.11,5.21,25.97,2.82,-20.14,3.10,0.86,7.61
+testnorma2l9112026,hip_flexion,izquierda,OpenCap,5,42.38,3.67,20.30,5.31,-22.08,6.54,1.00,0.00
+testnorma2l9112026,hip_flexion,izquierda,+IMU,5,43.83,6.48,22.22,2.86,-21.61,5.63,0.68,10.59
+testnorma2l9112026,hip_flexion,izquierda,+IMU+pelvis,5,40.90,5.89,19.68,5.10,-21.22,5.00,0.57,11.45
+testnorma2l9112026,knee_angle,derecha,OpenCap,5,56.32,7.82,56.32,7.82,0.00,0.00,1.00,0.00
+testnorma2l9112026,knee_angle,derecha,+IMU,5,52.87,5.54,52.87,5.54,0.00,0.00,0.98,3.93
+testnorma2l9112026,knee_angle,derecha,+IMU+pelvis,5,52.38,7.02,52.38,7.02,0.00,0.00,0.99,2.63
+testnorma2l9112026,knee_angle,izquierda,OpenCap,5,53.53,5.50,53.53,5.50,0.00,0.00,1.00,0.00
+testnorma2l9112026,knee_angle,izquierda,+IMU,5,55.73,3.46,55.73,3.46,0.00,0.00,0.98,3.56
+testnorma2l9112026,knee_angle,izquierda,+IMU+pelvis,5,52.51,3.74,52.51,3.74,0.00,0.00,0.99,2.59
+testnorma2l9112026,ankle_angle,derecha,OpenCap,5,28.70,5.66,9.33,2.36,-19.38,5.65,1.00,0.00
+testnorma2l9112026,ankle_angle,derecha,+IMU,5,28.70,5.66,9.33,2.36,-19.38,5.65,1.00,0.00
+testnorma2l9112026,ankle_angle,derecha,+IMU+pelvis,5,28.70,5.66,9.33,2.36,-19.38,5.65,1.00,0.00
+testnorma2l9112026,ankle_angle,izquierda,OpenCap,5,24.82,7.80,8.15,4.89,-16.67,9.90,1.00,0.00
+testnorma2l9112026,ankle_angle,izquierda,+IMU,5,24.82,7.80,8.15,4.89,-16.67,9.90,1.00,0.00
+testnorma2l9112026,ankle_angle,izquierda,+IMU+pelvis,5,24.82,7.80,8.15,4.89,-16.67,9.90,1.00,0.00
+testnorma2l9112026,cadena pierna (hip - knee + ankle),derecha,OpenCap,5,81.97,8.81,18.75,1.59,-63.22,9.61,1.00,0.00
+testnorma2l9112026,cadena pierna (hip - knee + ankle),derecha,+IMU,5,76.39,4.50,22.08,2.14,-54.31,2.38,0.90,9.08
+testnorma2l9112026,cadena pierna (hip - knee + ankle),derecha,+IMU+pelvis,5,76.39,4.50,22.05,2.14,-54.34,2.38,0.90,9.08
+testnorma2l9112026,cadena pierna (hip - knee + ankle),izquierda,OpenCap,5,71.75,11.03,17.69,5.88,-54.06,15.60,1.00,0.00
+testnorma2l9112026,cadena pierna (hip - knee + ankle),izquierda,+IMU,5,73.10,6.50,15.13,2.71,-57.97,3.88,0.80,12.74
+testnorma2l9112026,cadena pierna (hip - knee + ankle),izquierda,+IMU+pelvis,5,73.10,6.50,15.10,2.71,-57.99,3.88,0.80,12.74
+testnorma2l9112026,arm_flex,derecha,OpenCap,5,13.00,2.05,7.83,2.80,-5.16,2.26,1.00,0.00
+testnorma2l9112026,arm_flex,derecha,+IMU,5,10.97,1.88,5.95,2.80,-5.03,3.46,0.94,1.64
+testnorma2l9112026,arm_flex,derecha,+IMU+pelvis,5,10.97,1.88,5.95,2.80,-5.03,3.46,0.94,1.64
+testnorma2l9112026,arm_flex,izquierda,OpenCap,5,12.08,2.74,6.07,1.50,-6.01,3.90,1.00,0.00
+testnorma2l9112026,arm_flex,izquierda,+IMU,5,10.14,2.15,5.33,2.87,-4.81,4.44,0.91,2.07
+testnorma2l9112026,arm_flex,izquierda,+IMU+pelvis,5,10.14,2.15,5.33,2.87,-4.81,4.44,0.91,2.07
+testnorma2l9112026,elbow_flex,derecha,OpenCap,5,16.36,4.01,36.69,3.28,20.34,3.56,1.00,0.00
+testnorma2l9112026,elbow_flex,derecha,+IMU,5,14.81,3.86,35.62,3.50,20.81,3.63,0.96,1.64
+testnorma2l9112026,elbow_flex,derecha,+IMU+pelvis,5,14.81,3.86,35.62,3.50,20.81,3.63,0.96,1.64
+testnorma2l9112026,elbow_flex,izquierda,OpenCap,5,19.43,2.33,42.68,3.49,23.25,3.45,1.00,0.00
+testnorma2l9112026,elbow_flex,izquierda,+IMU,5,15.77,2.60,41.31,3.44,25.54,2.84,0.98,2.07
+testnorma2l9112026,elbow_flex,izquierda,+IMU+pelvis,5,15.77,2.60,41.31,3.44,25.54,2.84,0.98,2.07
+testnorma2l9112026,cadena brazo (arm_flex + elbow),derecha,OpenCap,5,24.20,6.41,42.95,3.85,18.74,3.80,1.00,0.00
+testnorma2l9112026,cadena brazo (arm_flex + elbow),derecha,+IMU,5,19.69,6.54,39.57,4.14,19.88,3.50,0.91,3.28
+testnorma2l9112026,cadena brazo (arm_flex + elbow),derecha,+IMU+pelvis,5,19.69,6.54,39.57,4.14,19.88,3.50,0.91,3.28
+testnorma2l9112026,cadena brazo (arm_flex + elbow),izquierda,OpenCap,5,20.32,3.48,44.48,2.87,24.16,1.72,1.00,0.00
+testnorma2l9112026,cadena brazo (arm_flex + elbow),izquierda,+IMU,5,11.46,2.20,40.29,1.65,28.82,0.83,0.87,4.13
+testnorma2l9112026,cadena brazo (arm_flex + elbow),izquierda,+IMU+pelvis,5,11.46,2.20,40.29,1.65,28.82,0.83,0.87,4.13
+testnorma2l9112026,lumbar_extension,-,OpenCap,5,16.12,7.07,-1.84,2.71,-17.97,9.53,1.00,0.00
+testnorma2l9112026,lumbar_extension,-,+IMU,5,16.12,7.07,-1.84,2.71,-17.97,9.53,1.00,0.00
+testnorma2l9112026,lumbar_extension,-,+IMU+pelvis,5,11.44,2.90,-4.27,0.88,-15.71,3.43,0.74,6.86

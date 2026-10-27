@@ -1,0 +1,8 @@
+# Los datos se guardan tal cual, sin convertir finales de linea
+*.csv -text
+*.mot -text
+*.trc -text
+*.sto -text
+*.osim -text
+*.yaml -text
+*.json -text

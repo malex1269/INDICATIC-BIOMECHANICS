@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.metawear/
+# salidas de ejemplo de los scripts de conectividad
+analisis_conectividad/salida/
+# archivos sueltos que escribe la app (los de la sesion van en resultados/sesion_*/)
+resultados/*.mot
+# videos de OpenCap: pesados y muestran al sujeto
+datos/OPENCAP/*/OpenCapData/Videos/
