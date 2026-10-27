@@ -3,6 +3,9 @@ __pycache__/
 .metawear/
 # salidas de ejemplo de los scripts de conectividad
 analisis_conectividad/salida/
+# resumenes que analizar_bandwidth.py escribe en la carpeta desde donde se corre
+analisis_conectividad/*.csv
+analisis_conectividad/*.png
 # archivos sueltos que escribe la app (los de la sesion van en resultados/sesion_*/)
 resultados/*.mot
 # videos de OpenCap: pesados y muestran al sujeto
